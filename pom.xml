@@ -98,10 +98,10 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <modules>
-        <module>shiro-saml-core</module>
-        <module>shiro-saml-spring</module>
-    </modules>
+    <subprojects>
+        <subproject>shiro-saml-core</subproject>
+        <subproject>shiro-saml-spring</subproject>
+    </subprojects>
     <!-- 制品发布仓库配置（distributionManagement） -->
     <distributionManagement>
         <repository>
